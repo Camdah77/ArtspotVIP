@@ -34,9 +34,11 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-camdah77-artspotvip-1rjow47f850.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-camdah77-artspotvip-1rjow47f850.ws-eu107.gitpod.io',
+                'camdah77-artspotvip-1rjow47f850.ws-eu107.gitpod.io',
+                'artspotwip-469887d16ec7.herokuapp.com', 'localhost']
 
 SITE_ID = 1
 

@@ -1,6 +1,8 @@
 from django.shortcuts import render, HttpResponse
 
 
-def say_hello(request):
-    return HttpResponse("Hello!")
-
+# HTML- pages
+def landing_page(request):
+    return render(request, 'base.html')
+def home(request):
+    return render(request, 'index.html')  
